@@ -2,13 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>inchide ibala</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contained Image</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            /* This color will fill the empty space on the sides */
+            background-color: #000000;
+
+            background-image: url('./ebala.png');
+
+            /* Change 'cover' to 'contain' */
+            background-size: contain;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
 </head>
 <body>
-
-<div style="display: flex; justify-content: center; align-items: center;">
-    <img src="./ebala.png" alt="inchide ebala" style="height: 700px; width: auto">
-</div>
-
 </body>
 </html>
